@@ -1,4 +1,4 @@
-function numberFormatComma(a) {
+function formatNum(a) {
   a = a.toString();
   var pattern = /(-?\d+)(\d{3})/;
   while (pattern.test(a))
